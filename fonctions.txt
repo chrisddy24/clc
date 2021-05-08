@@ -1,0 +1,8 @@
+
+
+WINDOW *create_win(int nlines, int ncols, tcoordinates coor)
+void move_win(WINDOW *lwindow,tcoordinates loc)
+tcoordinates window_finder(tcoordinates mouse_click)
+void window_verif_diff(WINDOW *BLANK ,WINDOW *CLICKED_WIN ,tcoordinates blank,tcoordinates clicked_win)
+void window_verif_easy(WINDOW *BLANK ,WINDOW *CLICKED_WIN ,tcoordinates blank,tcoordinates clicked_win)
+souris.c
